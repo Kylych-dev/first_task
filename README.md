@@ -1,11 +1,11 @@
 Этот проект называется First Task и создан в учебных целях.
 	Чтобы запустить проект вам нужно: 
-		клонировать репозиторий командой git clone "https://github.com/Kylych-bob/first_task.git"
-		создайте виртуальное окружение и актвириуйте его
-		введите команду pip install -r requirements.txt для установки всех зависимостей
-		затем в корневом каталоге на уровне core введите команду python3 manage.py makemigrtions/migrate
-		создайте супер пользователя командой python3 manage.py createsuperuser
-		введите в командную строку python3 manage.py runsevrer и перейдите по ссылке
+		клонировать репозиторий командой git clone "https://github.com/Kylych-bob/first_task.git",
+		создайте виртуальное окружение и актвириуйте его,
+		введите команду pip install -r requirements.txt для установки всех зависимостей,
+		затем в корневом каталоге на уровне core введите команду python3 manage.py makemigrtions/migrate,
+		создайте супер пользователя командой python3 manage.py createsuperuser,
+		введите в командную строку python3 manage.py runsevrer и перейдите по ссылке,
 	
 	В этом проекте я рассмотрел модели и их поля и типы данных, дополнительные параметры,
 	к примеру поля: 
