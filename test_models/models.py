@@ -56,5 +56,5 @@ class Invoice(models.Model):
         verbose_name_plural = 'Счета'
 
 
-
+#  Авторизация JWT
 
