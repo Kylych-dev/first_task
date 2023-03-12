@@ -18,7 +18,10 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('test_models.urls'))
+    # path('', include('test_models.urls')),
+
+    path('main/', include('apps.orders_test.urls')),
+
 ]
 
 from test_models.views import pageNotFound
