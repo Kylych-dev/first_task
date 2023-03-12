@@ -21,6 +21,7 @@ urlpatterns = [
     # path('', include('test_models.urls')),
 
     path('main/', include('apps.orders_test.urls')),
+    path('api/users/', include('apps.user_test.urls'))
 
 ]
 

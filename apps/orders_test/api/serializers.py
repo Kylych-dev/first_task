@@ -11,4 +11,5 @@ class OrdersSerializer(serializers.ModelSerializer):
 
 class InvoiceSerializer(serializers.ModelSerializer):
     class Meta:
+        model = Invoice
         fields = ['id_orders', 'id_product', 'number_goods']
