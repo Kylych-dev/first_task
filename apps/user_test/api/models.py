@@ -42,7 +42,7 @@ class Account(AbstractBaseUser):
     delivery_address = models.CharField(max_length=100, verbose_name='адрес доставки')
     phone_number     = models.CharField(max_length=100, verbose_name='Номер телефона')
 
-    USERNAME_FIELD = 'email'
+    USERNAME_FIELD = 'user_email'
     REQUIRED_FIELDS = ['username',]
 
     def __str__(self) -> str:

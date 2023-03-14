@@ -1,12 +1,14 @@
 from django.urls import path, include
 from rest_framework import routers
-from .api.views import UserAPIView
+from .api.views import UserAPIView, RegistratorSerializer
+
 
 router = routers.DefaultRouter()
-router.register('userreg', UserAPIView, )
+router.register('userreg', UserAPIView)
 
 
 urlpatterns = [
-    path('product', include(router.urls))
+    path('', include(router.urls)),
+    path('register/', RegistratorSerializer.as_view())
 ]
 
