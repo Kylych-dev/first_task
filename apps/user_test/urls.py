@@ -1,6 +1,7 @@
 from django.urls import path, include
 from rest_framework import routers
 from .api.views import UserAPIView, RegistratorSerializer
+# from rest_framework_simplejwt import 
 
 
 router = routers.DefaultRouter()

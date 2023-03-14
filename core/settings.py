@@ -44,6 +44,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
+    'rest_framework_simplejwt',
+
     # Apps
     'apps.user_test.apps.UserTestConfig',
     'apps.orders_test.apps.OrdersTestConfig',
