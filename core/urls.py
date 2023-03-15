@@ -25,5 +25,3 @@ urlpatterns = [
 
 ]
 
-from test_models.views import pageNotFound
-handler404 = pageNotFound 

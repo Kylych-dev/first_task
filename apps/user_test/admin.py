@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .api.models import Account
+from .app_module.models import Account
 
 
 admin.site.register(Account)

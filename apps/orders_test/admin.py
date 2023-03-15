@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .api.models import Orders, Invoice
+from .app_module.models import Orders, Invoice
 
 
 admin.site.register(Orders)

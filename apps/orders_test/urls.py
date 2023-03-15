@@ -1,6 +1,6 @@
 from django.urls import include, path
 from rest_framework import routers
-from .api.views import OrderAPIView, InvoiceAPIView
+from .app_module.views import OrderAPIView, InvoiceAPIView
 
 order_router = routers.DefaultRouter()
 order_router.register(r'orders', OrderAPIView)
